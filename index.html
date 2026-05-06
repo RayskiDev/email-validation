@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz walidacja</title>
+
+    <meta name="description" content="Przykład formularza z walidacją emaila.">
+    <meta name="keywords" content="formularz, walidacja, email, JavaScript">
+    <meta name="author" content="RayskiDev">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form id="newsletterForm">
+            <input name="email" type="email" placeholder="Wpisz email" aria-label="Wpisz email" autocomplete="email"
+                required />
+            <button name="submit" type="submit" id="submitButton">Wyślij</button>
+        </form>
+        <div class="notifications"></div>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
